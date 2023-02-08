@@ -90,3 +90,19 @@
     background-color: white;
     color: black;
 }
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 2fr auto;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #45a1ff;
+    color: #fff;
+    
+}
